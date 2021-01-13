@@ -1,0 +1,16 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 0 100px;
+	width: 100%;
+	height: 50px;
+	background: rgb(54, 50, 255);
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		line-height: 50px;
+	}
+}

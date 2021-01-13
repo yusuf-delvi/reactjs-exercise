@@ -1,0 +1,31 @@
+.input-container {
+	margin: 45px 0;
+
+	input[type="password"] {
+		letter-spacing: 0.3em;
+	}
+
+	input {
+		background: none;
+		background-color: white;
+		color: #000;
+		font-size: 18px;
+		padding: 8px 8px 8px 4px;
+		display: block;
+		width: 100%;
+		border: none;
+		border-radius: 0;
+		border-bottom: 1px solid grey;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	.input-label {
+		color: #000;
+		font-size: 16px;
+		font-weight: normal;
+		pointer-events: none;
+	}
+}
